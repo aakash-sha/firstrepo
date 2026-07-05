@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Git & Jenkins Practice Website</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+header{
+    background:#24292e;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    background:#0366d6;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+.hero{
+    padding:70px;
+    text-align:center;
+    background:white;
+}
+
+.hero h1{
+    color:#0366d6;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+section{
+    width:85%;
+    margin:30px auto;
+}
+
+.card-container{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    flex:1;
+    min-width:250px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+.card h3{
+    color:#0366d6;
+    margin-bottom:10px;
+}
+
+button{
+    margin-top:15px;
+    padding:10px 20px;
+    background:#28a745;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#218838;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+}
+
+table th,table td{
+    border:1px solid #ccc;
+    padding:12px;
+    text-align:center;
+}
+
+table th{
+    background:#0366d6;
+    color:white;
+}
+
+footer{
+    background:#24292e;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Git & Jenkins Demo Website</h1>
+    <p>Practice Project for DevOps Engineers</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Git</a>
+    <a href="#">Jenkins</a>
+    <a href="#">Pipeline</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="hero">
+    <h1>Welcome to DevOps Practice</h1>
+    <p>This website is created for Git, GitHub and Jenkins practice by Aakash.</p>
+
+    <button onclick="showMessage()">Click Me</button>
+</div>
+
+<section>
+
+<h2>DevOps Tools</h2>
+
+<div class="card-container">
+
+<div class="card">
+<h3>Git</h3>
+<p>
+Git is a distributed version control system used to track code changes.
+</p>
+</div>
+
+<div class="card">
+<h3>GitHub</h3>
+<p>
+GitHub hosts Git repositories and supports collaboration.
+</p>
+</div>
+
+<div class="card">
+<h3>Jenkins</h3>
+<p>
+Jenkins automates build, testing and deployment using CI/CD pipelines.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Pipeline Stages</h2>
+
+<table>
+
+<tr>
+<th>Stage</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>Checkout Code</td>
+<td>Completed</td>
+</tr>
+
+<tr>
+<td>Build</td>
+<td>Completed</td>
+</tr>
+
+<tr>
+<td>Test</td>
+<td>Running</td>
+</tr>
+
+<tr>
+<td>Deploy</td>
+<td>Pending</td>
+</tr>
+
+</table>
+
+</section>
+
+<section>
+
+<h2>About Project</h2>
+
+<p>
+This project can be used for learning:
+</p>
+
+<br>
+
+<ul>
+
+<li>Git Init</li>
+<li>Git Add</li>
+<li>Git Commit</li>
+<li>Git Branch</li>
+<li>Git Merge</li>
+<li>Git Rebase</li>
+<li>GitHub Push</li>
+<li>GitHub Pull Request</li>
+<li>Jenkins Build</li>
+<li>CI/CD Pipeline</li>
+
+</ul>
+
+</section>
+
+<footer>
+
+<h3>DevOps Practice Website</h3>
+
+<p>Version 1.0</p>
+
+<p>Created for Git & Jenkins Learning</p>
+
+</footer>
+
+<script>
+
+function showMessage(){
+    alert("Welcome to Git & Jenkins Practice Project With Aakash!");
+}
+
+</script>
+
+</body>
+</html>
