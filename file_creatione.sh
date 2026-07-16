@@ -8,3 +8,6 @@ then
 else
 	echo "Already present"
 fi
+whoami
+pwd
+ls -ld
