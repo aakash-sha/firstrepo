@@ -9,6 +9,3 @@ else
 	echo "Already present"
 fi
 whoami
-pwd
-ls -ld
-who
