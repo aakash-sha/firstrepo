@@ -11,3 +11,4 @@ fi
 whoami
 pwd
 ls -ld
+who
